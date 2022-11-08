@@ -64,7 +64,7 @@ public class BookApiControllerTest {
 
         List<Book> books = Arrays.asList(
                 new Book("제목1", "내용1", "메타코딩"),
-                new Book("제목2", "내용2", "메타코딩"));
+                new Book("제목3", "내용2", "메타코딩"));
         bookRepository.saveAll(books);
 
         // 테스트 시작
